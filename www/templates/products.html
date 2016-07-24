@@ -1,0 +1,17 @@
+<ion-view view-title="Products">
+    <ion-content>
+        <h1 style="text-align:center">Here it is Product's list</h1>
+        <ion-list>
+           <ion-item collection-repeat="item in playlists" type="item-text-wrap" style="background:transparent;border:none; padding-top:0px; ">
+                <div class="card" style=" margin:0px; ">
+                    <div class="item item-thumbnail-left " width="400" height="200" style="padding-top:30px;background:#ebebeb;  ">
+                        <h2 style="color:#155877;text-transform:capitalize;">Item id: {{item.id}}</h2>
+                        <h2 style="color:#155877;text-transform:capitalize;">Item title: {{item.title}}</h2>
+                        <h2 style="color:#155877;text-transform:capitalize;">Item price: {{item.price}}</h2>
+                    </div>
+                </div>
+            </ion-item>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>
